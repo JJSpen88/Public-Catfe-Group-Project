@@ -1,0 +1,834 @@
+
+
+h1{
+  font-family: 'Montserrat Alternates';
+  font-weight: Bold;
+  font-size: 56px;
+
+}
+.landingPageH1 {
+  font-family: 'Montserrat Alternates', sans serif;
+  font-weight:  Bold;
+  font-size: 37px;
+  text-align: center;
+}
+
+.cafePhotosH1{
+  font-family: 'Montserrat Alternates', sans serif;
+  font-weight: Bold;
+  font-size: 56px;
+  text-align: center;
+  color: #FFFFFF;
+  background: #7177A9;
+  padding:10px;
+  border-radius: 8px;
+  width:95%;
+    text-align: center;
+    margin:auto;
+
+}
+
+.catPhotosH1{
+  font-family: 'Montserrat Alternates', sans serif;
+  font-weight: Bold;
+  font-size: 56px;
+  text-align: center;
+  color: #FFFFFF;
+  background: #7177A9;
+  padding:10px;
+  border-radius: 8px;
+  width:95%;
+    text-align: center;
+    margin:auto;
+
+}
+
+
+h2{
+  font-family: 'Montserrat Alternates';
+  font-weight: Bold;
+  font-size: 45px;
+  color: #7177A9;
+}
+
+
+h3 {
+  font-family: 'Montserrat Alternates';
+  font-weight: Bold;
+  font-size: 35px;
+  color: #7177A9;
+}
+
+h4 {
+  font-family: 'Montserrat Alternates';
+  font-weight: Bold;
+  font-size: 27px;
+  color: #7177A9;
+}
+
+h5 {
+  font-family: 'Montserrat Alternates';
+  font-weight: Bold;
+  font-size: 21px;
+  color: #7177A9;
+}
+
+h6 {
+  font-family: 'Montserrat Alternates';
+  font-weight: Bold;
+  font-size: 16px;
+  color: #7177A9;
+}
+
+body1 {
+  font-family: 'Montserrat', sans serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #7177A9;
+}
+
+body2 {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 17px;
+  color: #7177A9;
+}
+
+body3 {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.landingPhoto {
+      position:relative;
+      float:left;
+      width:1000px;
+      height:1000px;
+      top: 0px;
+      left: 0px;
+
+}
+
+.landingLogo {
+      position:absolute;
+      width:124.329px;
+      height:118.966px;
+      top: 36px;
+      left: 36px;
+}
+.avatar {
+      position:absolute;
+      float: left;
+      width:124.329px;
+      height:118.966px;
+      top: 36px;
+      right: 250px;
+}
+
+.alert {
+      position:relative;
+      float: right;
+      width:124.329px;
+      height:118.966px;
+      top: 36px;
+      right: 380px;
+}
+/*
+This is all for the signin hover Button*/
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #7177A9;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 21px;
+   font-family: 'Montserrat Alternates';
+   font-weight: Bold;
+  padding: 10px;
+  width: 600px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  opacity: 0.9;
+  text-decoration: none;
+}
+
+
+
+.button:hover {
+  opacity: 1;
+  color: #FFFFFF;
+
+}
+/*
+This is all for the Create Account Button*/
+
+.button2 {
+      display: inline-block;
+    border-radius: 4px;
+    background-color: #FD9F69;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 21px;
+     font-family: 'Montserrat Alternates';
+     font-weight: Bold;
+    padding: 10px;
+    width: 600px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    opacity: 0.9;
+    text-decoration: none;
+}
+
+
+.button2:hover {
+         opacity: 1;
+         color: #FFFFFF;
+}
+/*this is for submit on registration*/
+.button3 {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #7177A9;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 21px;
+   font-family: 'Montserrat Alternates';
+   font-weight: Bold;
+  padding: 10px;
+  width: 290px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  opacity: 0.9;
+}
+
+
+
+.button3:hover {
+  opacity: 1;
+
+}
+/*this is for clear on registration*/
+.button4 {
+      display: inline-block;
+    border-radius: 4px;
+    background-color: #FD9F69;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 21px;
+     font-family: 'Montserrat Alternates';
+     font-weight: Bold;
+    padding: 10px;
+    width: 290px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    opacity: 0.9;
+    text-decoration: none;
+}
+
+
+.button4:hover {
+         opacity: 1;
+         color: #FFFFFF;
+}
+
+.button5 {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #7177A9;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 17px;
+   font-family: 'Montserrat Alternates';
+   font-weight: Bold;
+  padding: 5px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  opacity: 0.9;
+}
+
+
+
+.button5:hover {
+  opacity: 1;
+
+}
+
+.button6 {
+      display: inline-block;
+    border-radius: 4px;
+    background-color: #FD9F69;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 17px;
+     font-family: 'Montserrat Alternates';
+     font-weight: Bold;
+    padding: 5px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    opacity: 0.9;
+    text-decoration: none;
+}
+
+
+.button6:hover {
+         opacity: 1;
+         color: #FFFFFF;
+}
+.buttonAddCat {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #7177A9;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 17px;
+   font-family: 'Montserrat Alternates';
+   font-weight: Bold;
+  padding: 5px;
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  opacity: 0.9;
+}
+
+.buttonAddCat:hover {
+  opacity: 1;
+}
+.buttonRemoveCat {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #FBA999;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 17px;
+   font-family: 'Montserrat Alternates';
+   font-weight: Bold;
+  padding: 5px;
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  opacity: 0.9;
+}
+
+.buttonRemoveCat:hover {
+  opacity: 1;
+}
+
+
+/*Trying to center landing page login*/
+.right {
+  float: right;
+  padding: 10px;
+  position: relative;
+  top: 173px;
+  right: 125px;
+}
+
+
+
+.centerReg {
+  float: right;
+  padding: 10px;
+  position: relative;
+  top: 50px;
+  right: 650px;
+  border-radius: 4px;
+}
+
+.form {
+   text-align: center;
+ }
+ /* landing page link for cafe owners position */
+ .link{
+ text-decoration: none;
+ color: #FD9F69;
+position: absolute;
+ bottom: 10px;
+    right: 10px;
+ }
+
+ /* Add styles to the form container */
+ .container {
+   position: absolute;
+   right: 0;
+   margin: 20px;
+   max-width: 300px;
+   padding: 16px;
+
+ }
+
+
+ /* Full-width input fields */
+ input[type=text], input[type=password], input[type=email], input[type=tel], input[type=url],input[type=number],input[type=search] {
+   width: 600px;
+   padding: 15px;
+   margin: 5px 0 22px 0;
+   border: none;
+   border-radius: 4px;
+   background: #f1f1f1;
+     font-family: 'Montserrat';
+     font-weight: 600;
+     font-size: 20px;
+     color: #7177A9;
+ }
+
+ input[type=text]:focus, input[type=password]:focus,  input[type=email]:focus, input[type=tel]:focus, input[type=url]:focus,input[type=number]:focus, input[type=search]:focus  {
+   background-color: #ddd;
+   outline: none;
+   border-radius: 4px;
+ }
+
+textarea {
+ padding: 15px;
+   margin: 5px 0 22px 0;
+   border: none;
+   border-radius: 4px;
+   background: #f1f1f1;
+width: 600px;
+font-family: 'Montserrat';
+     font-weight: 600;
+     font-size: 20px;
+     color: #7177A9;
+
+}
+
+textarea:focus {
+   background-color: #ddd;
+   outline: none;
+   border-radius: 4px;
+}
+  /* Full-width input fields */
+  .catInput[type=text]{
+    width: 200px;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    border-radius: 4px;
+    background: #f1f1f1;
+      font-family: 'Montserrat';
+      font-weight: 600;
+      font-size: 20px;
+      color: #7177A9;
+  }
+
+  .catInput[type=text]:focus {
+    background-color: #ddd;
+    outline: none;
+    border-radius: 4px;
+  }
+
+.bg-img {
+  /* The image used */
+  background-image: url("../../images/UserReg.jpg");
+
+  min-height: 380px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/*custom select*/
+/*the container must be positioned relative:*/
+.custom-select {
+  position: relative;
+     font-family: 'Montserrat';
+     font-weight: 600;
+     font-size: 20px;
+     cursor: pointer;
+     width:600px;
+     height:55px;
+     border: none;
+      border-radius: 4px;
+}
+
+.custom-select select {
+  display: none; /*hide original SELECT element:*/
+  border-radius: 4px;
+}
+
+.label {
+  font-family: 'Montserrat', sans serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #7177A9;
+}
+
+
+/* Define the main Navigation block */
+.myNav {
+    display: block;
+    height:118.966px;
+    line-height: 50px;
+}
+/* Remove bullets, margin and padding */
+.myNav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.myNav li {
+    float: left;
+    /* Or you can use display: inline; */
+}
+/* Define the block styling for the links */
+.myNav li a {
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.grid-container {
+  display: grid;
+  justify-content: start;
+  width: 100%;
+   grid-template-columns: 118.966px 118.966px 118.966px 200px 118.966px 200px;
+   grid-column-gap: 20px;
+   padding: 20px 45px;
+}
+.grid-item1 {
+ grid-column: 1;
+ grid-row: 1;
+ height:118.966px;
+}
+
+.grid-item2 {
+  grid-column: 2;
+ grid-row: 1;
+ height:118.966px;
+}
+.grid-item3 {
+
+ grid-column: 3;
+ grid-row: 1;
+ height:118.966px;
+}
+.grid-item4 {
+ grid-column: 4;
+ grid-row: 1;
+  height:118.966px;
+  align-self: center;
+
+}
+.grid-item5 {
+ grid-column: 5;
+ grid-row: 1;
+  height:118.966px;
+}
+.grid-item6 {
+ grid-column: 6;
+ grid-row: 1;
+
+}
+
+.p-round{
+margin: auto;
+  border-radius: 8px;
+  background: #AC93B8;
+  width: 95%;
+    font-family: 'Montserrat Alternates';
+    font-weight: Bold;
+    font-size: 56px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+#nav {
+  list-style-type: none;
+  text-align: center;
+  margin:auto;
+  width:95%;
+  padding: 10px;
+  background-color: #7177A9;
+  border-radius: 8px;
+    font-size: 21px;
+     font-family: 'Montserrat Alternates';
+     font-weight: Bold;
+     text-decoration: none;
+
+
+}
+
+#nav li {
+  display: inline-block;
+text-decoration: none;
+  text-align: center;
+    color: white;
+}
+#nav li a {
+display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+
+}
+
+#nav li a:hover:not(.active) {
+  opacity: 1;
+  color: #FBA999;
+
+}
+
+
+
+
+/*.div1 {
+    z-index: 10;
+    position: relative;
+    border-radius: 8px;
+    color: #FBA999;
+    width:832.25px;
+    height:444.369px;
+}
+
+    .div2
+    {
+    position: relative;
+    margin-top:-100px;
+    z-index: 20;
+    width:781px;
+    height:467.164px;
+    }*/
+
+
+.profileBorder {
+      position:relative;
+      float:left;
+      top: 50px;
+      left: 45px;
+      background: #FBA999;
+      border-radius: 8px;
+      width:832.25px;
+      height:444.369px;
+}
+
+.profileMapContainer {
+       margin: auto;
+        border-radius: 8px;
+        background: #AC93B8;
+        width: 95%;
+        height: 700px;
+        overflow: auto;
+        padding: 20px;
+
+/*      margin: auto;
+        border-radius: 8px;
+        background: #AC93B8;
+        width: 95%;
+        height: 400px;
+        overflow: auto;
+          font-family: 'Montserrat Alternates';
+          font-weight: Bold;
+          font-size: 56px;
+          text-align: center;
+          color: #FFFFFF;*/
+}
+
+.profileMap {
+      position:absolute;
+      float:left;
+            top: 208px;
+            left: 35px;
+      width:781px;
+      height:467.164px;
+
+}
+
+
+
+
+.profileBorder2 {
+      position:relative;
+      float:right;
+      top: 50px;
+      right: 45px;
+      background: #FBA999;
+      border-radius: 8px;
+      width:832.25px;
+      height:444.369px;
+      overflow:auto;
+}
+.profileSearch {
+      position:absolute;
+      float:right;
+            top: 416px;
+            right: 70px;
+
+      width:781px;
+      height:467.164px;
+      background: grey;
+
+}
+
+.favoriteCats{
+margin: auto;
+  border-radius: 8px;
+  background: #AC93B8;
+  width: 95%;
+  height: 400px;
+  overflow: auto;
+    font-family: 'Montserrat Alternates';
+    font-weight: Bold;
+    font-size: 56px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.favoriteCatPhoto {
+  border-radius: 50%;
+  width:200px;
+}
+
+.favCatsHeader{
+  font-family: 'Montserrat Alternates';
+  font-weight: Bold;
+  font-size: 45px;
+  color: #FFFFFF;
+}
+
+.favCatsInfo {
+  font-family: 'Montserrat', sans serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+
+.cafePhotos{
+margin: auto;
+  border-radius: 8px;
+  background: #AC93B8;
+  width: 95%;
+    font-family: 'Montserrat Alternates';
+    font-weight: Bold;
+    font-size: 56px;
+    text-align: center;
+    color: #FFFFFF;
+    padding:50px;
+
+}
+
+.cafePhoto {
+padding:5px;
+  width:300px;
+}
+
+.reviewInboxBorder {
+      position:auto;
+      background: #FBA999;
+      border-radius: 8px;
+      width:95%;
+      margin: auto;
+       z-index: -1;
+}
+.placeholderContainer {
+margin: auto;
+width:90%;
+background: #FFFFFF;
+
+}
+
+.catPhotos{
+margin: auto;
+  border-radius: 8px;
+  background: #AC93B8;
+  width: 95%;
+    font-family: 'Montserrat Alternates';
+    font-weight: Bold;
+    font-size: 56px;
+    text-align: center;
+    color: #FFFFFF;
+    padding:50px;
+
+}
+
+.cafePhoto {
+padding:5px;
+  width:300px;
+}
+
+.CatEditorBorder {
+      position:relative;
+      background: #FBA999;
+      border-radius: 8px;
+      width:95%;
+      margin: auto;
+       z-index: -1;
+}
+
+.addACat{
+margin: auto;
+  border-radius: 8px;
+  background: #AC93B8;
+  width: 95%;
+  height: 400px;
+  overflow: auto;
+    font-family: 'Montserrat Alternates';
+    font-weight: Bold;
+    font-size: 56px;
+    text-align: center;
+    color: #FFFFFF;
+    padding:50px;
+
+}
+
+.cafeInfo{
+margin: auto;
+  border-radius: 8px;
+  background: #AC93B8;
+  width: 840px;
+  height: 300px;
+  overflow: auto;
+    font-family: 'Montserrat Alternates';
+    font-weight: Bold;
+    font-size: 56px;
+    text-align: center;
+    color: #FFFFFF;
+    padding:50px;
+
+}
+
+.photos{
+margin: auto;
+  border-radius: 8px;
+  background: #AC93B8;
+  width: 840px;
+  height: 300px;
+  overflow: auto;
+    font-family: 'Montserrat Alternates';
+    font-weight: Bold;
+    font-size: 56px;
+    text-align: center;
+    color: #FFFFFF;
+    padding:50px;
+
+}
+
+.social{
+width: 100px;
+padding: 20px;
+
+}

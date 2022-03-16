@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<h1 th:text="${'Cafe: ' + cafe.cafeName}">Default Title</h1>
+
+<div class="job-listing">
+    <p th:text="${'Name: ' + cafe.cafeName}"></p>
+    <p th:text="${'Location: ' + cafe.streetAddress}"></p>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org/">
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="../static/css/CatFe.css" th:href="@{/css/CatFe.css}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+          th:href="@{https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css}" rel="stylesheet"
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="icon" type="image/ico" href="../static/favicon.ico" th:href="@{../static/favicon.ico}" />
+
+    <link href='https://fonts.googleapis.com/css?family=Montserrat Alternates' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' >
+    <title>Cafe Login | CatFe</title>
+    <script>
+    /*to prevent Firefox FOUC, this must be here*/
+    let FF_FOUC_FIX;
+  </script>
+
+</head>
+<body>
+<div style="position: relative; left: 0; top: 0;">
+    <img src="../static/images/CatFe-OwnerLogin.jpg" th:src="@{images/CatFe-OwnerLogin.jpg}" alt="A long haired black persian cat is on a table next to a Frappe and Iced Coffee" class="landingPhoto"/>
+    <img src="../static/images/LandingLogo.svg" th:src="@{images/LandingLogo.svg}" alt="CatFe Logo (cat in coffee cup)" class="landingLogo"/>
+</div>
+
+<div class="right">
+<h1 class="landingPageH1">
+    Welcome Cafe Owner!
+</h1>
+
+
+    <form method="post" style="max-width:600px;">
+        <div class="form-group">
+            <label th:for="username" class="label">Username
+                <br>
+                <!-- <input class="form-control" th:field="${cafeLoginDTO.username}" type="text">-->
+                 <input th:field="${cafeLoginDTO.username}" type="text">
+             </label>
+             <p class="error" th:errors="${cafeLoginDTO.username}"></p>
+         </div>
+         <div class="form-group">
+             <label class="label">Password
+                 <br>
+                 <!-- <input class="form-control" th:field="${cafeLoginDTO.password}" type="password">-->
+                  <input th:field="${cafeLoginDTO.password}" type="password">
+              </label>
+              <p class="error" th:errors="${cafeLoginDTO.password}"></p>
+
+          </div>
+<!--        <button class="button"><label for="Google"> Continue with Google</label></button>
+        <br>-->
+
+        <!-- <input type="submit" class="btn btn-primary" value="Log In" /> -->
+       <br>
+       <button type="submit" value="login" class="button" ><span>Sign in</span> </button>
+
+     </form>
+    <br>
+    <br>
+    <br>
+    <a th:href="@{cafe-registration}" class="button2">Create a catFe owner account</a>
+    <br>
+
+ </div>
+<div>
+    <a th:href="@{login}" class="link">
+        <h5>Cafe Customer?<br>
+            Login here</h5> </a>
+</div>
+
+ </body>
+ </html>
