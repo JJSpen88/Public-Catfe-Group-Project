@@ -16,17 +16,13 @@ Favorite cafes / cats
 Technologies
 Java
 Spring / Thymeleaf
-Javascript (Angular/Typescript?)
-MySQL
-CSS (Bootstrap or Tailwind?)
+Javascript
+CSS Bootstrap
 HTML
-(Possibly AWS + MySQL)
+AWS RDS + MySQL
 
-(Do these count as technologies?  ðŸ‘‡)
 Google Maps / Places API
-Google Authentication Login API
-Facebook Authentication Login API
-Captcha
+
 
 
 What I'll Have to Learn
@@ -37,6 +33,7 @@ How to bridge the gap between JavaScript and Java along with the technologies us
 Time management to dedicate to the project and using tools such as Trello as a group to manage our tasks - Niquelle
 
 Designing and building a complete web app from a wireframe to a MVP that utilizes multiple API calls to libraries as well as a database, while gaining experience in a team environment. Using team management tools like trello, miro, and github to collaborate with team members. - Jarred
+
 Project Tracker
 
 Our Trello board https://trello.com/b/mK5d9w9x/cat-cafe-hub-app
@@ -52,3 +49,4 @@ Catfe is a web app designed to centralize information for cat cafes in the userâ
 - The application currently runs on port 8080. Open your web browser and type localhost:8080 to open the application.
 
 ## Database Instructions
+Must provide your own database credentials in application.properties as well as include your own Google Maps API key for map to work properly.
