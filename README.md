@@ -53,3 +53,5 @@ Catfe is a web app designed to centralize information for cat cafes in the userâ
 
 ## Database Instructions
 Must provide your own database credentials in application.properties as well as include your own Google Maps API key for map to work properly.
+
+**This repo does not show all of the pull requests / merges used to build this app, as we had private API keys and did not want to make them public!**
